@@ -12,7 +12,7 @@ The app is written as a single page app, utilising ***ONLY*** frontend JavaScrip
 
 News are aggregated using the Guardian API, while the Aylien text summarisation API, is used to create the summaries of the news articles.
 
-## User Stories1
+## User Stories
 
 ```
 As a busy politician
