@@ -52,10 +52,9 @@ To make my news reading more fun
 
 ## Mockups of the various pages
 
-### Headlines page
+ Headlines Page | Article Summary Page
+:---: | :---:
+![Headlines page mockup](/images/news-summary-project-headlines-page-mockup.png) | ![Article page mockup](/images/news-summary-project-article-page-mockup.png)
 
-![Headlines page mockup](/images/news-summary-project-headlines-page-mockup.png)
-
-### Article summary page
-
-![Article page mockup](/images/news-summary-project-article-page-mockup.png)
+## Diagram of actions & Proposed Layout
+![Handwritten Notes](/images/structure_methodology.jpg)
