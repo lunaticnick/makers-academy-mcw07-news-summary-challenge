@@ -10,6 +10,10 @@ Article.prototype.displayHeadline = function (){
   return this.headline;
 };
 
+Article.prototype.displayURL = function (){
+  return this.url;
+};
+
 
 exports.Article = Article
 
