@@ -3,7 +3,7 @@ var assert = {
     if (!assertionToCheck) {
       throw new Error("Assertion failed: " + testName + " is not truthy");
     } else {
-      console.log(testName + " passing!");
+      console.log(testName + " is passing!");
     }
   }
 };
