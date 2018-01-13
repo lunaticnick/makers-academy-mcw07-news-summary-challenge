@@ -14,6 +14,9 @@ Article.prototype.displayURL = function (){
   return this.url;
 };
 
+Article.prototype.displayBody = function () {
+  return this.body;
+};
 
 exports.Article = Article
 
