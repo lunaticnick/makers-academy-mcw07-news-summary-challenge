@@ -57,4 +57,4 @@ To make my news reading more fun
 ![Headlines page mockup](/images/news-summary-project-headlines-page-mockup.png) | ![Article page mockup](/images/news-summary-project-article-page-mockup.png)
 
 ## Diagram of actions & Proposed Layout
-![Handwritten Notes](/images/structure_methodology.jpg)
+![Handwritten Notes](/images/structure_methodology.JPG)
