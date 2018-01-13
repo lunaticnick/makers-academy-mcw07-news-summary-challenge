@@ -6,6 +6,9 @@
     this.body = body;
   };
 
+Article.prototype.displayHeadline = function (){
+  return this.headline;
+};
 
 
 exports.Article = Article
