@@ -12,7 +12,9 @@
     this.articleslist.push(article);
   };
 
-
+  NewsList.prototype.showArticleHeadline = function(index) {
+    return this.articleslist[index].displayHeadline();
+  }
 
   exports.NewsList = NewsList;
 })(this);
