@@ -12,6 +12,7 @@
     this.articleslist.push(article);
   };
 
-    exports.NewsList = NewsList;
 
+
+  exports.NewsList = NewsList;
 })(this);
