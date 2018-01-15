@@ -6,7 +6,11 @@ function NewsListViewControl(newslist = new NewsList(), newslistview = new NewsL
 
 
 NewsListViewControl.prototype.addHeadlinesToIndex = function(id){
-  document.getElementById(id).innerHTML = this.newslistview.listHTML();
+  var self = this;
+  this.newslist.fetchArticles(function(){
+    document.getElementById(id).innerHTML = self.newslistview.listHTML();
+  });
+
 };
 
 exports.NewsListViewControl = NewsListViewControl;
