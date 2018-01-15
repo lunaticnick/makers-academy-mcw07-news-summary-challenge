@@ -8,7 +8,16 @@ function testNewsListViewControl() {
   var newslistview = new NewsListView(newslist);
   var newslistviewcontrol = new NewsListViewControl(newslist,newslistview);
   var html = newslistviewcontrol.newslistview.listHTML()
-  newslistviewcontrol.addHeadlinesToIndex('headlines');
+  console.log(html)
+
+
+  function DoubleListControl() {};
+
+      DoubleListControl.prototype.addHeadlinesToIndex = function (id){
+        return document.getElementById(id).innerHTML = "<ul><li>headline1</li><li>headline2</li></ul>";
+      }
+  var controller = new DoubleListControl()
+  controller.addHeadlinesToIndex('headlines');
   assert.isTrue(document.getElementById('headlines').innerHTML === html, "NewsListViewController can inject article headlines in index")
 
 };
